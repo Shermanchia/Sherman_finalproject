@@ -1,17 +1,12 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Sherman Chia JW Travels
+Author: Sherman Chia
 */
 
 
 /******************************************
 /* SETUP
 /*******************************************/
-
-
-/* Box Model Hack */
 
 * {
     -moz-box-sizing: border-box;
@@ -256,16 +251,16 @@ header h1, #sidebar h1, #signupnow, footer h1 {
 
 /**index.html css*/
 #intro{
-  min-height: 600px;
+  min-height: 780px;
   background: url(../images/photo-1469031187556-d2f469a1375b.jpg) no-repeat center top #888888;
   background-size: cover;
   max-width: 100%;
-  padding-top: 70px;
-  padding-left: 10px;
+  padding-top: 200px;
+  padding-left: 5px;
   color: #ffffff;
-  font-size: 200px;
+  font-size: 100px;
   font-weight: 300;
-  letter-spacing: -10px;
+  letter-spacing: -1.5px;
 }
 
 #intro p{
@@ -291,8 +286,11 @@ header h1, #sidebar h1, #signupnow, footer h1 {
 /*travel pages*/
 
 #benefits{
+  max-width: -width: 100%;
+  background-size: cover;
   background: url(../images/photo-1470294402047-fc1b5f39bd99.jpg) no-repeat center top #3c3c3b;
   padding: 300px;
+  max-height: 750px;
 }
 
 #benefits h1{
@@ -435,9 +433,31 @@ header h1, #sidebar h1, #signupnow, footer h1 {
     }
 
     #intro p{
-      padding-top: 15%;
-      font-size: 150px;
+      padding-top: 0%;
+      font-size: 100px;
       text-align: center;
+    }
+
+    #benefits h1{
+      font-weight: 600;
+      font-size: 25px;
+      color: #ffffff;
+      text-align: center;
+      max-width: 1000px;
+      padding-left: 20%;
+      animation-name: fadeInUp;
+      animation-duration: 1s;
+    }
+
+    #benefits p{
+      font-size: 20px;
+      font-weight: 300;
+      max-width: 1000px; /*create a width so that the text can transform into two lines*/
+      text-align: center;
+      padding-left: 20%;
+      color: #ffffff;
+      animation-name: fadeInUp;
+      animation-duration: 1s;
     }
 
     #sidebar p, a[id^="learn"] {
@@ -500,10 +520,10 @@ header h1, #sidebar h1, #signupnow, footer h1 {
     }
 
     #intro p{
-      padding-top: 15%;
-      font-size: 100px;
+      padding-top: 8%;
+      font-size: 80px;
       text-align: center;
-      letter-spacing: -5px;
+      letter-spacing: -2px;
     }
 
 
@@ -569,9 +589,10 @@ header h1, #sidebar h1, #signupnow, footer h1 {
     }
 
     #intro p{
-      font-size: 80px;
+      padding-top: 5%;
+      font-size: 40px;
       text-align: center;
-      letter-spacing: -3px;
+      letter-spacing: -1px;
     }
     #sidebar p, a[id^="learn"] {
         font-size: 16px;
