@@ -1,8 +1,7 @@
 /*
-Project Name: Sherman Chia JW Travels
+Project Name: Sherman Chia travel journal
 Author: Sherman Chia
 */
-
 
 /******************************************
 /* SETUP
@@ -16,8 +15,6 @@ Author: Sherman Chia
     box-sizing: border-box;
     /* IE */
 }
-
-/* Clear fix hack */
 
 .clearfix:after {
     content: ".";
@@ -100,19 +97,10 @@ nav ul li {
     border-bottom: 3px solid transparent;
     transition: all ease-in-out 0.2s;
 }
-header h1, #posts {
+header h1{
     padding-left: 70px;
 }
-#main {
-    /*create equal white space between header and main section as well as main section and footer */
-    margin: 125px 0 50px;
-}
-#posts {
-    float: left;
-    width: calc(700/960 *100%);
-}
-#posts h1 {
-    font-size: 40px;
+
 }
 figure img,#sidebar img {
     max-width: 100%;
@@ -120,67 +108,12 @@ figure img,#sidebar img {
 figcaption {
     display: block;
 }
-#posts p:first-of-type:first-letter{
-    font-size: 80px;
-    float: left;
-    line-height: 0.5;
-    margin: 20px 5px;
-}
-a[id^="read"] {
-    float: right;
-}
-#sidebar {
-    float: right;
-    width: calc(240/960 * 100%);
-    padding-right: 70px;
-    padding-left: 20px;
-}
-#sidebar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-#sidebar p {
-    line-height: 1.2;
-}
-#sidebar ul, #sidebar p {
-    /*create space at margin bottom to increase readability*/
-    margin-bottom: 50px;
-}
-#posts, #sidebar {
-    display: inline-block;
-    vertical-align: top;
-}
-#posts p, #sidebar p {
-    color: #606161;
-}
-#posts, #sidebar h1, a[id^="read"], a[id^="learn"]{
-    color: #033048;
+
 }
 hr {
     margin-top: 20px;
 }
-#signupnow {
-    background-color: #ffffff;
-    padding: 40px 0;
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 12px;
-}
 
-#signupnowbtn{
-  border-radius: 5px;
-  text-align: center;
-  padding: 14px;
-  width: 280px;
-  display: block;
-  margin: 0 auto;
-  background-color: #033048;
-  color: #ffffff;
-  text-transform: capitalize;
-  font-size: 12px;
-  font-weight: 800;
-}
 footer {
     background-color: #121212;
     padding: 50px 0;
@@ -210,36 +143,22 @@ a {
 nav ul li:hover{
     border-color: #888888;
 }
-#signupnowbtn:hover, #getitnowbtn:hover {
-    background-color: #ffffff;
+
 }
-nav ul li.current a,a:not(#signupnowbtn):not(#getitnowbtn):hover{
+nav ul li.current a{
  color: #6d6e71;
 }
 /*group elements with same font size*/
 
-header h1, #sidebar h1 {
+header h1{
     font-size: 32px;
 }
-nav a, #posts p, a[id^="read"], #sidebar ul, footer h1, #intro {
+nav a, #intro {
     font-size: 20px;
 }
-#sidebar p, #learnmore, #learnless {
-    font-size: 22px;
-}
-
-/*group elements with same font weight*/
 
 
-/*light*/
-
-#posts p, #sidebar ul, #sidebar p {
-    font-weight: 300;
-}
-
-/*semibold*/
-
-nav a, #posts h1, a[id^="read"], a[id^="learn"], #posts p:first-of-type:first-letter, footer p, {
+nav a, #posts h1, #posts p:first-of-type:first-letter, footer p, {
     font-weight: 600;
 }
 
@@ -375,41 +294,6 @@ header h1, #sidebar h1, #signupnow, footer h1 {
   animation-duration: 1s;
 }
 
-/*#benefits ul{
-  list-style: inherit;
-  margin: 30px 0 0 30px;
-}*/
-
-#testimonial{
-  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
-  color: #ffffff;
-  text-align: center;
-  font-size: 18px;
-  padding: 80px 0  80px;
-}
-
-#testimonial blockquote{
-  width: 300px;
-  margin: 0 auto;
-  font-style: italic;
-  font-weight: 300;
-}
-
-#testimonial footer{
-  font-weight: 600;
-  background-color: transparent;
-  font-style: normal;
-}
-
-/*For more text display*/
-#readmoretext1, #readmoretext2, #learnmoretext{
-  display: none;
-}
-
-/*media queries*/
-
-
 /*For width equal to 1000px but not less than 769px*/
 
 @media only screen and (min-width: 769px) and (max-width: 1000px) {
@@ -419,22 +303,11 @@ header h1, #sidebar h1, #signupnow, footer h1 {
     header {
         padding-bottom: 20px;
     }
-    header h1, #posts {
+    header h1{
         padding-left: 40px;
     }
-    #posts h1 {
-        font-size: 38px;
-    }
-    #posts p:first-of-type:first-letter {
-        font-size: 70px;
-    }
-    #sidebar{
-      margin-right: 10px;
-    }
-    #sidebar h1 {
-        font-size: 30px;
-    }
-    nav a, #posts p, a[id^="read"], #sidebar ul, footer h1{
+
+    nav a, #posts p, #sidebar ul, footer h1{
         font-size: 22px;
     }
 
@@ -466,15 +339,6 @@ header h1, #sidebar h1, #signupnow, footer h1 {
       animation-duration: 1s;
     }
 
-    #sidebar p, a[id^="learn"] {
-        font-size: 20px;
-    }
-    #signupnow {
-        padding: 20px 0;
-    }
-    #signupnowbtn{
-        padding: 10px 50px;
-    }
     footer {
         padding: 30px 0;
     }
@@ -509,19 +373,8 @@ header h1, #sidebar h1, #signupnow, footer h1 {
     header {
         padding-bottom: 20px;
     }
-    #main {
-        margin: 150px 0px 50px;
-    }
-    #posts h1 {
-        font-size: 36px;
-    }
-    #posts p:first-of-type:first-letter {
-        font-size: 60px;
-    }
-    #sidebar h1 {
-        font-size: 28px;
-    }
-    nav a, #posts p, a[id^="read"], #sidebar ul, footer h1{
+
+    nav a, #posts p, #sidebar ul, footer h1{
         font-size: 20px;
     }
 
@@ -536,12 +389,7 @@ header h1, #sidebar h1, #signupnow, footer h1 {
     #sidebar p, a[id^="learn"] {
         font-size: 18px;
     }
-    #signupnow {
-        padding: 20px 0;
-    }
-    #signupnowbtn {
-        padding: 10px 50px;
-    }
+
     footer {
         padding: 30px 0;
     }
@@ -578,19 +426,8 @@ header h1, #sidebar h1, #signupnow, footer h1 {
         padding-bottom: 20px;
         padding-right: 20%;
     }
-    #main {
-        margin: 250px 0 50px 0;
-    }
-    #posts h1 {
-        font-size: 34px;
-    }
-    #posts p:first-of-type:first-letter {
-        font-size: 50px;
-    }
-    #sidebar h1 {
-        font-size: 26px;
-    }
-    nav a, #posts p, a[id^="read"], #sidebar ul, footer h1{
+
+    nav a, #posts p, #sidebar ul, footer h1{
         font-size: 18px;
     }
 
@@ -600,15 +437,7 @@ header h1, #sidebar h1, #signupnow, footer h1 {
       text-align: center;
       letter-spacing: -1px;
     }
-    #sidebar p, a[id^="learn"] {
-        font-size: 16px;
-    }
-    #signupnow {
-        padding: 20px 0;
-    }
-    #signupnowbtn{
-        padding: 10px 50px;
-    }
+
     footer {
         padding: 30px 0;
     }

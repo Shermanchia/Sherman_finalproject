@@ -1,5 +1,5 @@
 /*
-Project Name: Sherman Chia JW Travels
+Project Name: Sherman Chia travel journal
 Author: Sherman Chia
 */
 
@@ -100,87 +100,21 @@ nav ul li {
     border-bottom: 3px solid transparent;
     transition: all ease-in-out 0.2s;
 }
-header h1, #posts {
+header h1{
     padding-left: 70px;
 }
-#main {
-    /*create equal white space between header and main section as well as main section and footer */
-    margin: 125px 0 50px;
-}
-#posts {
-    float: left;
-    width: calc(700/960 *100%);
-}
-#posts h1 {
-    font-size: 40px;
-}
-figure img,#sidebar img {
+
+figure img{
     max-width: 100%;
 }
 figcaption {
     display: block;
 }
-#posts p:first-of-type:first-letter{
-    font-size: 80px;
-    float: left;
-    line-height: 0.5;
-    margin: 20px 5px;
-}
-a[id^="read"] {
-    float: right;
-}
-#sidebar {
-    float: right;
-    width: calc(240/960 * 100%);
-    padding-right: 70px;
-    padding-left: 20px;
-}
-#sidebar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-#sidebar p {
-    line-height: 1.2;
-}
-#sidebar ul, #sidebar p {
-    /*create space at margin bottom to increase readability*/
-    margin-bottom: 50px;
-}
-#posts, #sidebar {
-    display: inline-block;
-    vertical-align: top;
-}
-#posts p, #sidebar p {
-    color: #606161;
-}
-#posts, #sidebar h1, a[id^="read"], a[id^="learn"]{
-    color: #033048;
-}
+
 hr {
     margin-top: 20px;
 }
-#signupnow {
-    background-color: #ffffff;
-    padding: 40px 0;
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 12px;
-}
 
-#signupnowbtn{
-  border-radius: 5px;
-  text-align: center;
-  padding: 14px;
-  width: 280px;
-  display: block;
-  margin: 0 auto;
-  background-color: #033048;
-  color: #ffffff;
-  text-transform: capitalize;
-  font-size: 12px;
-  font-weight: 800;
-}
 footer {
     background-color: #121212;
     /*padding: 50px 0;*/
@@ -210,42 +144,26 @@ a {
 nav ul li:hover{
     border-color: #888888;
 }
-#signupnowbtn:hover, #getitnowbtn:hover {
-    background-color: #ffffff;
-}
-nav ul li.current a,a:not(#signupnowbtn):not(#getitnowbtn):hover{
+
+nav ul li.current a{
  color: #6d6e71;
 }
 /*group elements with same font size*/
 
-header h1, #sidebar h1 {
+header h1 {
     font-size: 32px;
 }
-nav a, #posts p, a[id^="read"], #sidebar ul, footer h1, #intro {
+nav a, #intro {
     font-size: 20px;
 }
-#sidebar p, #learnmore, #learnless {
-    font-size: 22px;
-}
 
-/*group elements with same font weight*/
-
-
-/*light*/
-
-#posts p, #sidebar ul, #sidebar p {
-    font-weight: 300;
-}
-
-/*semibold*/
-
-nav a, #posts h1, a[id^="read"], a[id^="learn"], #posts p:first-of-type:first-letter, footer p, {
+nav a, footer p, {
     font-weight: 600;
 }
 
 /*extrabold*/
 
-header h1, #sidebar h1, #signupnow, footer h1 {
+header h1, footer h1 {
     font-weight: 800;
 }
 
@@ -265,7 +183,7 @@ header h1, #sidebar h1, #signupnow, footer h1 {
   color: #ffffff;
   font-size: 40px;
   font-weight: 300;
-  letter-spacing: -1.0px;
+  letter-spacing: -0px;
   line-height: 110%;
 }
 
@@ -277,6 +195,7 @@ header h1, #sidebar h1, #signupnow, footer h1 {
 
 .signoff{
 padding-left: 570px;
+padding-top: 15px;
 animation-name: fadeInUp;
 animation-duration: 2s
 }
