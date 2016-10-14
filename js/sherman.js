@@ -75,5 +75,5 @@ function signupfunction() {
 
 /*msg to appear when nav links are not ready*/
 function linkmsg() {
-    alert("Page will be available soon! Be patient!");
+    alert("Coming up real soon.");
 };

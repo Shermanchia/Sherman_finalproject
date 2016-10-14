@@ -27,6 +27,11 @@ Author: Sherman Chia
     line-height: 0;
     height: 0;
 }
+
+.clearfix{
+  height: 12%;
+}
+
 .clear {
     clear: both;
 }
@@ -261,12 +266,13 @@ header h1, #sidebar h1, #signupnow, footer h1 {
   font-size: 100px;
   font-weight: 300;
   letter-spacing: -1.5px;
+
 }
 
 #intro p{
   text-align: center;
   animation-name: fadeInUp;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
 }
 
 @keyframes fadeInUp {
@@ -613,3 +619,8 @@ header h1, #sidebar h1, #signupnow, footer h1 {
       padding-left: 10px;
     }
 }
+
+nav ul li.tips{
+  border: 2px solid #a7a9ac;
+  border-radius: 3px;
+  padding: 6px;
