@@ -158,19 +158,14 @@ nav a, #intro {
 }
 
 
-nav a, #posts h1, #posts p:first-of-type:first-letter, footer p, {
+nav a, footer p {
     font-weight: 600;
 }
 
 /*extrabold*/
 
-header h1, #sidebar h1, #signupnow, footer h1 {
+header h1, footer h1 {
     font-weight: 800;
-}
-
-/*Hide text css*/
-#learnmoretext{
-  margin-top: -50px;
 }
 
 /**index.html css*/
@@ -398,10 +393,8 @@ header h1, #sidebar h1, #signupnow, footer h1 {
 /*For width lesser than 480px iphone/mobile */
 
 @media only screen and (max-width: 480px) {
-    #posts, #sidebar {
-        display: block;
-        width: 90%;
-    }
+
+
 
     nav ul li {
         display: block;
@@ -410,25 +403,26 @@ header h1, #sidebar h1, #signupnow, footer h1 {
     nav ul {
         /*reset previous styles to none to fit 480px width*/
         float: none;
-        padding-top: 0px;
+        padding-top: 10px;
         padding-left: 40%;
         padding-right: 10%;
     }
     nav ul li:hover {
-        width: 110%;
+        width: 100%;
     }
     header h1 {
         font-size: 26px;
         float: none;
-        padding-left: 45%;
+        padding-left: 35%;
     }
     header {
-        padding-bottom: 20px;
+        padding-bottom: 25px;
         padding-right: 20%;
     }
 
     nav a, #posts p, #sidebar ul, footer h1{
         font-size: 18px;
+        color: white;
     }
 
     #intro p{
@@ -447,9 +441,46 @@ header h1, #sidebar h1, #signupnow, footer h1 {
       padding-top: 300px;
       padding-left: 10px;
     }
-}
+
+    #intro img{
+      width: 80%;
+      height: 80%;
+    }
+
+    #benefits{
+      padding: 300px 20px 300px 20px;
+      text-align: centre;
+    }
+
+    #benefits h1, #benefits p{
+      padding-left: 5px;
+    }
+
+    #bangkok{
+      padding: 300px 20px 300px 20px;
+      text-align: centre;
+    }
+
+        #bangkok h1, #bangkok p{
+          padding-left: 5px;
+        }
+
+        #Tasmania{
+          padding: 300px 20px 300px 20px;
+          text-align: centre;
+        }
+
+            #Tasmania h1, #Tasmania p{
+              padding-left: 5px;
+            }
+
 
 nav ul li.tips{
   border: 2px solid #a7a9ac;
   border-radius: 3px;
   padding: 6px;
+}
+
+.tips:hover {
+    background-color: rgba(128, 128, 128, 0.4);
+  }

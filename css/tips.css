@@ -218,7 +218,6 @@ nav ul li.tips{
 #myform p{
   text-align: left;
   letter-spacing: 0.3px;
-  line-height: 60%;
 }
 
 #myform{
@@ -226,11 +225,15 @@ nav ul li.tips{
 }
 
 input[type='text']{
+    background-color: rgba(128, 128, 128, 0);
+    border-radius: 2px;
     border: 1px solid grey;
     font-size:30px;
   }
 
   input[type='email']{
+      background-color: rgba(128, 128, 128, 0);
+      border-radius: 2px;
       border: 1px solid grey;
       font-size:30px;
     }
@@ -239,7 +242,7 @@ input[type='text']{
         background-color: rgba(128, 128, 128, 0);
         color: black;
         border: 1px solid #e7e7e7;
-        padding: 20px;
+        padding: 16px 20px;
         border-radius: 2px;
         color: white;
         font-size: 20px;
@@ -248,3 +251,15 @@ input[type='text']{
 .submit1:hover {
   background-color: rgba(128, 128, 128, 0.6);
 }
+
+select {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(128, 128, 128, 0.8);
+    font-size: 20px;
+}
+
+.tips:hover {
+    background-color: rgba(128, 128, 128, 0.4);
+  }

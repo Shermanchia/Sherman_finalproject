@@ -153,11 +153,11 @@ nav ul li.current a{
 header h1 {
     font-size: 32px;
 }
-nav a, #intro {
+nav a {
     font-size: 20px;
 }
 
-nav a, footer p, {
+nav a, footer p {
     font-weight: 600;
 }
 
@@ -165,11 +165,6 @@ nav a, footer p, {
 
 header h1, footer h1 {
     font-weight: 800;
-}
-
-/*Hide text css*/
-#learnmoretext{
-  margin-top: -50px;
 }
 
 /**index.html css*/
@@ -218,3 +213,8 @@ nav ul li.tips{
   border: 2px solid #a7a9ac;
   border-radius: 3px;
   padding: 6px;
+}
+
+  .tips:hover {
+      background-color: rgba(128, 128, 128, 0.4);
+    }

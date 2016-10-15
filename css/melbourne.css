@@ -293,3 +293,8 @@ nav ul li.tips{
   border: 2px solid #a7a9ac;
   border-radius: 3px;
   padding: 6px;
+}
+
+  .tips:hover {
+      background-color: rgba(128, 128, 128, 0.4);
+    }
