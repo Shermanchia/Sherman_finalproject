@@ -101,7 +101,7 @@ header h1{
     padding-left: 70px;
 }
 
-}
+
 figure img,#sidebar img {
     max-width: 100%;
 }
@@ -289,6 +289,13 @@ header h1, footer h1 {
   animation-duration: 1s;
 }
 
+nav ul li.tips{
+  border: 2px solid #a7a9ac;
+  border-radius: 3px;
+  padding: 6px;
+}
+
+
 /*For width equal to 1000px but not less than 769px*/
 
 @media only screen and (min-width: 769px) and (max-width: 1000px) {
@@ -474,12 +481,11 @@ header h1, footer h1 {
               padding-left: 5px;
             }
 
-
-nav ul li.tips{
-  border: 2px solid #a7a9ac;
-  border-radius: 3px;
-  padding: 6px;
-}
+            nav ul li.tips{
+              border: 2px solid #a7a9ac;
+              border-radius: 3px;
+              padding: 6px;
+            }
 
 .tips:hover {
     background-color: rgba(128, 128, 128, 0.4);
